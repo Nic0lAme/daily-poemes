@@ -103,7 +103,7 @@
       document.getElementById('datePicker').value = dateString;
     }
 
-    fetch('./data/baudelaire_poems.json')
+    fetch('./baudelaire_poems.json')
       .then(response => response.json())
       .then(data => {
         poems = data;
